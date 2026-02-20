@@ -1,0 +1,14 @@
+{
+  "name": "typescript-learning",
+  "version": "1.0.0",
+  "main": "dist/1.Basic.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/1.Basic.js",
+    "dev": "tsc --watch"
+  },
+  "devDependencies": {
+    "@types/node": "^25.3.0",
+    "typescript": "^5.9.3"
+  }
+}
