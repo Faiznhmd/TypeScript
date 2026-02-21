@@ -1,3 +1,9 @@
+//Primitive
+
+let username: string = 'Typescript';
+let age: number = 10;
+let isAdmin: boolean = true;
+
 //Arrays
 
 let numbers: number[] = [1, 2, 3, 4];
@@ -14,12 +20,14 @@ enum Color {
   Green,
 }
 
-let FavColor: Color = Color.Blue;
-// what is it so so either if you choose blue red green
+let FavColor: Color = Color.Red;
+// what is it  so either if you choose blue red green
+// this is only take red blue green
 
-//Any
-
-let randoomvalue: any = 10;
+//Any(you have to avoid it "avoid when possible")
+// this take all value
+let randoomvalue: any;
+randoomvalue = 10;
 randoomvalue = 'hlo';
 randoomvalue = true;
 
@@ -35,3 +43,8 @@ someValue = true;
 function subscribe(message: string): void {
   console.log(message);
 }
+
+//type inference
+// typescript automatically knows what is the type of variable
+let ex = 'THIS IS AN EXAMPLE';
+let agianEX = true;
